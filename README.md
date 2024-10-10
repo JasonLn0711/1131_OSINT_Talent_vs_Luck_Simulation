@@ -14,7 +14,7 @@ In this project, you will find:
 - `talent_vs_luck_simulation.py`: The main Python script that runs the simulation, showing how talent and luck interact to produce success.
 - `requirements.txt`: Lists the dependencies required to run the Python code.
 - `README.md`: This file, providing an overview of the project.
-- `experiement_talent_vs_luck_2.ipynb`: A Jupyter Notebook that contains the full simulation code, step-by-step explanations, and visualizations that highlight the impact of luck on success.
+- `experiement_talent_vs_luck__v2_1`: A Jupyter Notebook that contains the full simulation code, step-by-step explanations, and visualizations that highlight the impact of luck on success.
 - **Visualizations**: The script produces multiple figures, illustrating the distribution of talent, wealth accumulation, and the impact of luck on success.
 
 ## How the Project Relates to Investment Scams
