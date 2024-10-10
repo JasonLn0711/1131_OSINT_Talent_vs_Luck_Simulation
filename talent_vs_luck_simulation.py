@@ -9,7 +9,9 @@ initial_capital = 10
 simulation_years = 40
 time_steps = simulation_years * 2  # Every 6 months
 grid_size = (201, 201)
-num_runs = 100  # For multiple runs analysis
+num_runs = 50 # For multiple runs analysis
+# I cut it down to make it time-efficient; initially, the original experiment ran 100 times instead.
+
 
 # Initialize lists to store results
 capitals_multi_run = []  # To store final capitals for each run
@@ -207,17 +209,17 @@ def plot_success_path(capital_evolution, most_successful_idx):
     plt.ylabel("Capital")
     plt.show()
 
-# Run the initialization to get positions and event types
-_, _, agent_positions = initialize_agents()
-event_positions, event_types = initialize_events()
-plot_initial_setup(agent_positions, event_positions, event_types)
-
 # Main Execution Section
 # Run multiple simulations for final capital analysis
 run_multiple_simulations()
 
 # Run a single simulation for visualizations
 capitals, talents, capital_evolution = run_simulation()
+
+# Run the initialization to get positions and event types
+_, _, agent_positions = initialize_agents()
+event_positions, event_types = initialize_events()
+plot_initial_setup(agent_positions, event_positions, event_types) # Figure 1
 
 # Generate visualizations
 plot_talent_distribution(talents)  # Figure 2 equivalent
@@ -228,12 +230,12 @@ plot_multi_run_capital_distribution()  # Figure 7 equivalent
 
 # Run simulation with event count tracking
 capitals, talents, lucky_counts, unlucky_counts = run_simulation_with_event_count()
-plot_events_vs_capital(lucky_counts, unlucky_counts, capitals)
+plot_events_vs_capital(lucky_counts, unlucky_counts, capitals) # Figure 5
 
 # Plot the talent distribution of the top 10% successful agents
-plot_top_talent_distribution(talents, capitals, top_percent=0.1)
+plot_top_talent_distribution(talents, capitals, top_percent=0.1) # Figure 8
 
 # Identify the most successful agent and plot their capital evolution
 most_successful_idx = np.argmax(capitals)
-plot_success_path(capital_evolution, most_successful_idx)
+plot_success_path(capital_evolution, most_successful_idx) # Figure 9
 
