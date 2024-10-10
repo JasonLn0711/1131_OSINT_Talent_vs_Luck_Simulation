@@ -67,7 +67,7 @@ The script will generate several figures, including:
 
 ## License
 
-This project is open-source and licensed under the MIT License. You are free to use, modify, and distribute the code as long as you include attribution to the original paper and this project.
+This project is open-source and licensed under the NYCU License. You are free to use, modify, and distribute the code as long as you include attribution to the original paper and this project.
 
 ## Acknowledgments
 
