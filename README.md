@@ -109,9 +109,9 @@ Thanks to A. Pluchino, A. E. Biondo, and A. Rapisarda for their research on the 
 
 ---
 
-Here is the translation in traditional Chinese (Taiwan):
 
 ---
+
 
 # 模擬市民：天賦與運氣模擬 及 投資詐騙
 
