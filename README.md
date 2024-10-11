@@ -63,7 +63,7 @@ pip install numpy matplotlib pandas
 ### Running the Simulation
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/JasonLn0711/talent-vs-luck-simulation.git
+   git clone https://github.com/JasonLn0711/Talent_vs_Luck_Simulation.git
    ```
 2. Open the Jupyter Notebook file `experiement_talent_vs_luck__v2_1.ipynb`:
    ```bash
@@ -181,7 +181,7 @@ pip install numpy matplotlib pandas
 
 1. 將此資料庫複製到您的用戶端：
    ```bash
-   git clone https://github.com/JasonLn0711/talent-vs-luck-simulation.git
+   git clone https://github.com/JasonLn0711/Talent_vs_Luck_Simulation.git
    ```
 2. 打開 Jupyter Notebook 文件 `experiement_talent_vs_luck__v2_1.ipynb`：
    ```bash
