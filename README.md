@@ -65,9 +65,9 @@ pip install numpy matplotlib pandas
    ```bash
    git clone https://github.com/JasonLn0711/talent-vs-luck-simulation.git
    ```
-2. Open the Jupyter Notebook file `experiement_talent_vs_luck_2.ipynb`:
+2. Open the Jupyter Notebook file `experiement_talent_vs_luck__v2_1.ipynb`:
    ```bash
-   jupyter notebook experiement_talent_vs_luck_2.ipynb
+   jupyter notebook experiement_talent_vs_luck__v2_1.ipynb
    ```
 3. Follow the instructions in the notebook to run each cell, which will guide you through the simulation process and generate visualizations of the results.
 
@@ -183,9 +183,9 @@ pip install numpy matplotlib pandas
    ```bash
    git clone https://github.com/JasonLn0711/talent-vs-luck-simulation.git
    ```
-2. 打開 Jupyter Notebook 文件 `experiement_talent_vs_luck_2.ipynb`：
+2. 打開 Jupyter Notebook 文件 `experiement_talent_vs_luck__v2_1.ipynb`：
    ```bash
-   jupyter notebook experiement_talent_vs_luck_2.ipynb
+   jupyter notebook experiement_talent_vs_luck__v2_1.ipynb
    ```
 3. 按照 notebook 中的指示逐步運行每個 code cell，本程式將引導您完成模擬過程並生成視覺化結果。
 
