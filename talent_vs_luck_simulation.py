@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 num_agents = 1000
 num_events = 500
 event_probability = 0.5  # 50% chance of a lucky or unlucky event
-initial_capital = 10
+initial_capital = 100000
 simulation_years = 40
 time_steps = simulation_years * 2  # Every 6 months
 grid_size = (201, 201)
